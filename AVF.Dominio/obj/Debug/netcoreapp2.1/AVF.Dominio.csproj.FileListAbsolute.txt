@@ -1,0 +1,9 @@
+C:\Desenvolvimento\bruno\AVF\AVF.Dominio\bin\Debug\netcoreapp2.1\AVF.Dominio.deps.json
+C:\Desenvolvimento\bruno\AVF\AVF.Dominio\bin\Debug\netcoreapp2.1\AVF.Dominio.dll
+C:\Desenvolvimento\bruno\AVF\AVF.Dominio\bin\Debug\netcoreapp2.1\AVF.Dominio.pdb
+C:\Desenvolvimento\bruno\AVF\AVF.Dominio\obj\Debug\netcoreapp2.1\AVF.Dominio.csprojAssemblyReference.cache
+C:\Desenvolvimento\bruno\AVF\AVF.Dominio\obj\Debug\netcoreapp2.1\AVF.Dominio.csproj.CoreCompileInputs.cache
+C:\Desenvolvimento\bruno\AVF\AVF.Dominio\obj\Debug\netcoreapp2.1\AVF.Dominio.AssemblyInfoInputs.cache
+C:\Desenvolvimento\bruno\AVF\AVF.Dominio\obj\Debug\netcoreapp2.1\AVF.Dominio.AssemblyInfo.cs
+C:\Desenvolvimento\bruno\AVF\AVF.Dominio\obj\Debug\netcoreapp2.1\AVF.Dominio.dll
+C:\Desenvolvimento\bruno\AVF\AVF.Dominio\obj\Debug\netcoreapp2.1\AVF.Dominio.pdb

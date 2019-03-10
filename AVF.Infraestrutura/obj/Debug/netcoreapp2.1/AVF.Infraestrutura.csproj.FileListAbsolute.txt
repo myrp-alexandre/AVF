@@ -1,0 +1,12 @@
+C:\Desenvolvimento\bruno\AVF\AVF.Infraestrutura\bin\Debug\netcoreapp2.1\AVF.Infraestrutura.deps.json
+C:\Desenvolvimento\bruno\AVF\AVF.Infraestrutura\bin\Debug\netcoreapp2.1\AVF.Infraestrutura.dll
+C:\Desenvolvimento\bruno\AVF\AVF.Infraestrutura\obj\Debug\netcoreapp2.1\AVF.Infraestrutura.csprojAssemblyReference.cache
+C:\Desenvolvimento\bruno\AVF\AVF.Infraestrutura\obj\Debug\netcoreapp2.1\AVF.Infraestrutura.csproj.CoreCompileInputs.cache
+C:\Desenvolvimento\bruno\AVF\AVF.Infraestrutura\obj\Debug\netcoreapp2.1\AVF.Infraestrutura.AssemblyInfoInputs.cache
+C:\Desenvolvimento\bruno\AVF\AVF.Infraestrutura\obj\Debug\netcoreapp2.1\AVF.Infraestrutura.AssemblyInfo.cs
+C:\Desenvolvimento\bruno\AVF\AVF.Infraestrutura\bin\Debug\netcoreapp2.1\AVF.Infraestrutura.pdb
+C:\Desenvolvimento\bruno\AVF\AVF.Infraestrutura\obj\Debug\netcoreapp2.1\AVF.Infraestrutura.dll
+C:\Desenvolvimento\bruno\AVF\AVF.Infraestrutura\obj\Debug\netcoreapp2.1\AVF.Infraestrutura.pdb
+C:\Desenvolvimento\bruno\AVF\AVF.Infraestrutura\bin\Debug\netcoreapp2.1\AVF.Dominio.dll
+C:\Desenvolvimento\bruno\AVF\AVF.Infraestrutura\bin\Debug\netcoreapp2.1\AVF.Dominio.pdb
+C:\Desenvolvimento\bruno\AVF\AVF.Infraestrutura\obj\Debug\netcoreapp2.1\AVF.Infraestrutura.csproj.CopyComplete
