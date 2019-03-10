@@ -6,6 +6,7 @@ namespace AVF.Dominio
 {
     public class Endereco
     {
+        public int Id { get; private set; }
         public string Cep { get; private set; }
         public string Logradouro { get; private set; }
         public string Complemento { get; private set; }

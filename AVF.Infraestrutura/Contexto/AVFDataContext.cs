@@ -1,4 +1,5 @@
 ﻿using AVF.Dominio;
+using AVF.Infraestrutura.Mapeamento;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -16,8 +17,15 @@ namespace AVF.Infraestrutura.Contexto
         {
             optionsBuilder
                 .UseLazyLoadingProxies(false)
-                .UseSqlServer(@"Server=(localdb);Database=EVF;Trusted_Connection=True;ConnectRetryCount=0");
+                .UseSqlServer(@"Server=.\sqlexpress;Database=EVF;Trusted_Connection=True;");
         }
+
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfiguration(new FuncionarioMap());
+        }
+
 
         DbSet<Funcionario> Funcionarios { get; set; }
         DbSet<Usuario> Usuarios { get; set; }
