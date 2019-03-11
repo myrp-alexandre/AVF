@@ -13,23 +13,15 @@ namespace AVF.Infraestrutura.Contexto
        : base(options)
         { }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder
-                .UseLazyLoadingProxies(false)
-                .UseSqlServer(@"Server=.\sqlexpress;Database=EVF;Trusted_Connection=True;");
-        }
-
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+
             modelBuilder.ApplyConfiguration(new FuncionarioMap());
         }
 
-
-        DbSet<Funcionario> Funcionarios { get; set; }
-        DbSet<Usuario> Usuarios { get; set; }
-        DbSet<Avaliacao> Avaliacoes { get; set; }
-        DbSet<Endereco> Enderecos { get; set; }
+        public DbSet<Funcionario> Funcionarios { get; set; }
+        public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<Avaliacao> Avaliacoes { get; set; }
+        public DbSet<Endereco> Enderecos { get; set; }
     }
 }

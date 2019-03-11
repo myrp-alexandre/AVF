@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "5fac88a3e8d4645dc5b39d78593d0c0143695f14"
+    "signature": "44d77b83d1cf0f1e7672a703c3e0d8c9712f859b"
   },
   "compilationOptions": {},
   "targets": {
@@ -12,8 +12,7 @@
           "Microsoft.EntityFrameworkCore": "2.2.2",
           "Microsoft.EntityFrameworkCore.Design": "2.2.2",
           "Microsoft.EntityFrameworkCore.Proxies": "2.2.2",
-          "Microsoft.EntityFrameworkCore.SqlServer": "2.2.2",
-          "Microsoft.EntityFrameworkCore.Tools": "2.2.2"
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.2.2"
         },
         "runtime": {
           "AVF.Infraestrutura.dll": {}
@@ -113,11 +112,6 @@
             "assemblyVersion": "2.2.2.0",
             "fileVersion": "2.2.2.19024"
           }
-        }
-      },
-      "Microsoft.EntityFrameworkCore.Tools/2.2.2": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Design": "2.2.2"
         }
       },
       "Microsoft.Extensions.Caching.Abstractions/2.2.0": {
@@ -820,13 +814,6 @@
       "sha512": "sha512-6KykeLQIsxDPIXwZxVT7IfldHQtH0NYbRTpzJ/8LxGzquc3RXEeUQPNGLZd3qHWQqD7TZaSX9xGlPbsEnHXWyw==",
       "path": "microsoft.entityframeworkcore.sqlserver/2.2.2",
       "hashPath": "microsoft.entityframeworkcore.sqlserver.2.2.2.nupkg.sha512"
-    },
-    "Microsoft.EntityFrameworkCore.Tools/2.2.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-DTLHtxycMrUx4WxhNIe8Wd2lIoREmxJQWdrtj56pliZ2RLLjA4LZ8jTIG0fzv4IJ43ivWpaGGukYHEeTFBDq0A==",
-      "path": "microsoft.entityframeworkcore.tools/2.2.2",
-      "hashPath": "microsoft.entityframeworkcore.tools.2.2.2.nupkg.sha512"
     },
     "Microsoft.Extensions.Caching.Abstractions/2.2.0": {
       "type": "package",

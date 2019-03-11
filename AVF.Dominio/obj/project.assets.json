@@ -681,23 +681,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bruno.franco\\.nuget\\packages\\": {},
+    "C:\\Users\\Bruno\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Desenvolvimento\\bruno\\AVF\\AVF.Dominio\\AVF.Dominio.csproj",
+      "projectUniqueName": "C:\\Desenvolvimento\\AVF\\AVF.Dominio\\AVF.Dominio.csproj",
       "projectName": "AVF.Dominio",
-      "projectPath": "C:\\Desenvolvimento\\bruno\\AVF\\AVF.Dominio\\AVF.Dominio.csproj",
-      "packagesPath": "C:\\Users\\bruno.franco\\.nuget\\packages\\",
-      "outputPath": "C:\\Desenvolvimento\\bruno\\AVF\\AVF.Dominio\\obj\\",
+      "projectPath": "C:\\Desenvolvimento\\AVF\\AVF.Dominio\\AVF.Dominio.csproj",
+      "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
+      "outputPath": "C:\\Desenvolvimento\\AVF\\AVF.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\bruno.franco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -12,6 +12,7 @@ namespace AVF.Infraestrutura.Mapeamento
             builder.ToTable("Endereco");
 
             builder.HasKey(x => x.Id);
+            builder.Property(x => x.Id).ValueGeneratedOnAdd();
 
             builder.Property(x => x.Cep)
               .HasMaxLength(8);

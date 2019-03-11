@@ -11,13 +11,18 @@ namespace AVF.Infraestrutura.Mapeamento
             builder.ToTable("Funcionario");
             
             builder.HasKey(x => x.Id);
+            builder.Property(x => x.Id).ValueGeneratedOnAdd();
 
             builder.HasOne(x => x.Usuario);
 
             builder.HasMany(x => x.Avaliacoes);
             builder.HasMany(x => x.Enderecos);
 
-            builder.Property(x => new { x.Nome, x.Email })
+            builder.Property(x =>  x.Nome)
+              .HasMaxLength(100)
+              .IsRequired();
+
+            builder.Property(x => x.Email)
               .HasMaxLength(100)
               .IsRequired();
 

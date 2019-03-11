@@ -10,7 +10,11 @@ namespace AVF.Infraestrutura.Mapeamento
         {
             builder.ToTable("Usuario");
 
-            builder.HasKey(x => x.Id);
+            builder
+                .HasKey(x => x.Id);
+
+            builder
+                .Property(x => x.Id).ValueGeneratedOnAdd();
 
             builder.Property(x => x.Login)
               .HasMaxLength(50);
@@ -19,6 +23,8 @@ namespace AVF.Infraestrutura.Mapeamento
              .HasMaxLength(32);
 
             builder.Property(x => x.Ativo);
+
+            
         }
     }
 }

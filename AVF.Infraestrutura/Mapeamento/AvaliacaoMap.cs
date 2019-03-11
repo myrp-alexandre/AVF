@@ -11,6 +11,7 @@ namespace AVF.Infraestrutura.Mapeamento
             builder.ToTable("Avaliacao");
 
             builder.HasKey(x => x.Id);
+            builder.Property(x => x.Id).ValueGeneratedOnAdd();
 
             builder.Property(x => x.Comentario)
               .HasMaxLength(5000)
